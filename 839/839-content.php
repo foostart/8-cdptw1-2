@@ -34,7 +34,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <img src="http://<?php echo $url_path ?>/images/blog_2_1024x1024.jpg" alt="blog2-responsive">
                 </div>
                 <div class="font-name">
-                    <h1 class="hidden-sm-xs"><a href="#"> Blog</a></h1>
+                    <h1 class="hidden-sm-xs"><a href="#">Blog</a></h1>
                     <h2><a href="#">We can satisfy customers with different claims</a></h2>
                     <br>
                     <h3 class="hidden-sm-xs">So, it is natural that this sphere is one of the most popular and it is really hard to offer...</h3>
@@ -48,8 +48,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="thumbnail">
                     <img src="http://<?php echo $url_path ?>/images/blog_3_1024x1024.jpg" alt="blog3-responsive">
                 </div>
-                <div class="col-sm-12 font-name">
-                    <h1 class="hidden-sm-xs">Blog</h1>
+                <div class="font-name">
+                    <h1 class="hidden-sm-xs"><a href="#">Blog</a></h1>
                     <h2><a href="#">We can help you solve any problem because we provide only...</a></h2>
                     <br>
                     <h3 class="hidden-sm-xs">We are living in the epoch of great technical progress....</h3>
