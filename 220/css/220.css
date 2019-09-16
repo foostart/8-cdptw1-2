@@ -1,0 +1,114 @@
+.type-220 .header a {
+  color: #fff;
+}
+.type-220 .header a:hover,
+.type-220 .header a:focus {
+  color: #ff9933;
+  text-decoration: none;
+}
+.type-220 .header img {
+  max-width: 100%;
+}
+.type-220 .header #lms_header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  clear: both;
+  background: rgba(255,255,255,0.1);
+  min-height: 94px;
+  z-index: 99999;
+  -webkit-transition: all 0.3s;
+}
+.type-220 .header .lms_header_top {
+  float: left;
+  width: 100%;
+  padding: 10px 0px;
+  background: #60ca64;
+}
+.type-220 .header .logo {
+  text-align: center;
+  padding: 20px 0;
+}
+.type-220 .header .lms_any_que_wrapper {
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+}
+.type-220 .header .lms_any_que_wrapper p {
+  float: left;
+  color: #ababab;
+  padding-right: 10px;
+  margin: 0px;
+}
+.type-220 .header .lms_any_que_wrapper a {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.type-220 .header .lms_login_wrapper {
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+}
+.type-220 .header .lms_login_wrapper ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+.type-220 .header .lms_login_wrapper ul li {
+  list-style: none;
+  float: left;
+  margin: 0px 10px;
+}
+.type-220 .header .lms_login_wrapper ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+}
+.type-220 .header .lms_login_wrapper ul li a span {
+  display: inline-block;
+  width: 22px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: -8px;
+  margin-left: -9px;
+  vertical-align: top;
+  box-shadow: rgba(0,0,0,0.298039) 0px 2px 2px 0px;
+  border-radius: 50%;
+  background: #4a9fd5;
+}
+.type-220 .header .lms_login_wrapper ul li a:hover {
+  color: #ff9933;
+}
+.type-220 .header .lms_login_wrapper ul li:last-child {
+  margin-right: 0px;
+}
+.type-220 .header .navbar-header .navbar-toggle {
+  background-color: #60ca64;
+}
+.type-220 .header .navbar-header .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.type-220 .header .nava {
+  margin: 0 -15px;
+}
+.type-220 .header .nava li a {
+  padding: 15px 20px;
+  color: #60ca64;
+}
+.type-220 .header .nava li a:hover {
+  border-bottom: #60ca64 2px solid;
+  color: #ff9933;
+  padding-top: 13px;
+}
+.type-220 .header .dropdown-menu {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.type-220 .header .navbar-toggle .icon-bar {
+  color: #fff;
+  background: #fff;
+}

@@ -1,0 +1,135 @@
+/*Color*/
+@color_black: #000;
+@color_white: #fff;
+@color_orange: #ff9933;
+@color-green: rgb(96, 202, 100);
+.type-220{
+    .header {
+        a {
+            color: @color_white;
+        }
+        a:hover, a:focus {
+            color: @color_orange;
+            text-decoration: none;
+        }
+        img{
+            max-width: 100%;
+        }
+        /*Header*/
+        #lms_header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            clear: both;
+            background: rgba(255,255,255,0.1);
+            min-height: 94px;
+            z-index: 99999;
+            -webkit-transition: all 0.3s;
+        }
+        .lms_header_top {
+            float: left;
+            width: 100%;
+            padding: 10px 0px;  
+            background:@color-green;
+        }   
+        /*Logo*/
+        .logo{
+            text-align: center;
+            padding: 20px 0;
+        }
+        /*Header Top*/
+        .lms_any_que_wrapper {
+            float: left;
+            width: 100%;
+            padding: 20px 0;
+            p {
+                float: left;
+                color: #ababab;
+                padding-right: 10px;
+                margin: 0px;
+            }   
+            a{
+                font-size: 12px;
+                margin-right: 5px;
+            }
+        }
+        .lms_login_wrapper {
+            float: left;
+            width: 100%;
+            padding: 20px 0;
+            ul {
+                margin: 0px;
+                padding: 0px;
+                float: right;
+                li {
+                    list-style: none;
+                    float: left;
+                    margin: 0px 10px;
+                    a {
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        color: @color_white;
+                        -webkit-transition: all 0.3s;
+                        span {
+                            display: inline-block;
+                            width: 22px;
+                            line-height: 22px;
+                            text-align: center;
+                            font-size: 16px;
+                            margin-top: -8px;
+                            margin-left: -9px;
+                            vertical-align: top;
+                            box-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 2px 0px;
+                            border-radius: 50%;
+                            background: rgb(74, 159, 213);
+                        }
+                    }
+                    a:hover {
+                        color: @color_orange;
+                    }
+                }
+                li:last-child {
+                    margin-right: 0px;
+                }
+            }
+        } 
+
+        /*Header*/
+        .navbar-header{
+            .navbar-toggle{
+                .icon-bar {
+                    background-color: @color_white;
+                }
+                background-color: #60ca64;
+            }
+        }
+        /*Button menu toggle*/
+
+        /*Menu*/
+        .nava{
+            margin: 0 -15px;
+            li{
+                a{
+                    padding: 15px 20px;
+                    color: #60ca64;
+                    &:hover{
+                        border-bottom: #60ca64 2px solid;
+                        color: #ff9933;
+                        padding-top: 13px;
+                    }
+                }
+            }
+        }
+        .dropdown-menu{
+            -webkit-box-shadow: none;
+            box-shadow:none;
+        }
+
+        .navbar-toggle .icon-bar{
+            color: #fff;
+            background: #fff;
+        }
+    }
+}
