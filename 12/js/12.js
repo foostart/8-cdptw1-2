@@ -1,5 +1,7 @@
 $(document).ready(function(){
    var swiper = new Swiper('.swiper-container', {
+    // direction: 'vertical',
+    // loop: true,
       effect: 'cube',
       grabCursor: true,
       cubeEffect: {
@@ -11,5 +13,12 @@ $(document).ready(function(){
       pagination: {
         el: '.swiper-pagination',
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      // scrollbar: {
+      //   el: '.swiper-scrollbar',
+      // },
     });
 });
