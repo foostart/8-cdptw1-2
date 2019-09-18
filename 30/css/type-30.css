@@ -5,8 +5,8 @@
   clear: both;
 }
 .mod-custom-style-8 .main-container {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 .mod-custom-style-8 .t3-module {
   background: transparent;
@@ -30,7 +30,7 @@
   text-transform: uppercase;
 }
 .mod-custom-style-8 .row {
-  text-align: center;
+  text-align: left;
   margin-left: -20px;
   margin-right: -20px;
 }
@@ -115,8 +115,8 @@
   display: inline-block;
 }
 .mod-custom-style-8 .t3-logo-small {
-  width: 60px;
-  height: 30px;
+  width: 100%;
+  height: auto;
 }
 .mod-custom-style-8 .t3-footer .t3-logo .t3-logo,
 .mod-custom-style-8 .t3-logo-small {
@@ -128,8 +128,6 @@
 }
 .mod-custom-style-8 .poweredby {
   float: left;
-  margin-top: 10px;
-  margin-right: 25px;
 }
 .mod-custom-style-8 .text-hide {
   font: 0/0 a;
@@ -177,18 +175,23 @@
   box-shadow: none;
   color: #838b95;
 }
+.mod-custom-style-8 .pull-right {
+  margin-right: 30px;
+}
 .mod-custom-style-8 .t3-copyright small {
   display: block;
   font-size: 13px;
 }
 .mod-custom-style-8 .t3-copyright {
   padding-top: 20px;
+  margin-left: -30px;
 }
 .mod-custom-style-8 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
+  margin-left: -40px;
 }
 .mod-custom-style-8 a:hover {
   text-decoration: none;

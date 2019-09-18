@@ -146,9 +146,11 @@
         <hr style="margin-top: 20px;">
         <div class="t3-copyright">
             <div class="row">
-                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 copyright ">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 copyright">
                     <div class="poweredby text-hide">
-                        <a class="t3-logo t3-logo-small t3-logo-light" href="#" title="Powered By T3 Framework" target="_blank">Powered By <strong>T3 Framework</strong></a>
+                        <a class="t3-logo t3-logo-small t3-logo-light" href="#" title="Powered By T3 Framework" target="_blank">
+                        <img src="images/t3.png" alt="" class="img-responsive"/>Powered By <strong>T3 Framework</strong>
+                        </a>
                     </div>
                     <div class="module1">
                         <small>Copyright © 2016 JoomlArt Demo Site. All Rights Reserved. Designed by 

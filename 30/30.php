@@ -18,7 +18,9 @@
 
 </head>
 <body>
-         <?php include '../30/30-content.php'; ?>
-    </body>
+
+    <?php include '../30/30-content.php'; ?>
+    
+</body>
 
 
