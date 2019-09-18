@@ -5,8 +5,8 @@
   clear: both;
 }
 .mod-custom-style-8 .main-container {
-  padding-left: 40px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .mod-custom-style-8 .t3-module {
   background: transparent;
@@ -140,6 +140,8 @@
   background: #202d3b;
   border-radius: 30px;
   padding: 10px 0;
+  margin-right: 30px;
+  margin-left: -30px;
 }
 .mod-custom-style-8 .acymailing_module_form .acymailing_form td {
   text-align: left;
@@ -175,23 +177,18 @@
   box-shadow: none;
   color: #838b95;
 }
-.mod-custom-style-8 .pull-right {
-  margin-right: 30px;
-}
 .mod-custom-style-8 .t3-copyright small {
   display: block;
   font-size: 13px;
 }
 .mod-custom-style-8 .t3-copyright {
   padding-top: 20px;
-  margin-left: -30px;
 }
 .mod-custom-style-8 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
-  margin-left: -40px;
 }
 .mod-custom-style-8 a:hover {
   text-decoration: none;

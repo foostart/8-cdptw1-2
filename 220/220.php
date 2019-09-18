@@ -18,16 +18,16 @@
     
 ?>
 <!DOCTYPE html>
-<html>
+<html lang=en>
     <head>
-        <title>Live preview</title>
+        <title>220</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/220.css" rel="stylesheet" type="text/css" />
-        <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.js"></script>
         <script src="<?php echo $url_path ?>/js/220.js"></script>
        
     </head>

@@ -1,22 +1,3 @@
-<head>
-    <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/type-30.less', 'css/type-30.css');
-    ?>
-    <link href="css/type-30.css" rel="stylesheet" type="text/css" />
-
-
-
-</head>
 <footer id="t3-footer" class="wrap t3-footer mod-custom-style-8">
     <!-- row-1 -->
     <div class="main-container clearfix">
@@ -140,9 +121,10 @@
             </div>
    
         </div>
+</div>
     
     <!-- row-2 -->
-    <section class="main-container">
+    <div class="main-container">
         <hr style="margin-top: 20px;">
         <div class="t3-copyright">
             <div class="row">
@@ -188,8 +170,5 @@
                 </div>
             </div>
         </div>
-        </div>
-    </section>
+</div>
 </footer>
-
-
