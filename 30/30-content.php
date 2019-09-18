@@ -39,7 +39,7 @@
 
                 <div class="t3-footnav  row">
                     <!-- item menu 1 -->
-                    <div class=" col-lg-3 col-md-3 col-sm-3  col-xs-12">
+                    <div class=" col-lg-3 col-md-3 col-sm-6  col-xs-12">
                         <div class="t3-module module " id="Mod90">
                             <div class="module-inner">
                                 <h3 class="module-title ">
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                     <!-- item menu 2 -->
-                    <div class=" col-lg-3 col-md-3 col-sm-3  col-xs-12">
+                    <div class=" col-lg-3 col-md-3 col-sm-6  col-xs-12">
                         <div class="t3-module module " id="Mod91">
                             <div class="module-inner">
                                 <h3 class="module-title ">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     <!-- item menu 3 -->
-                    <div class=" col-lg-3 col-md-3 col-sm-3  col-xs-12">
+                    <div class=" col-lg-3 col-md-3 col-sm-6  col-xs-12">
                         <div class="t3-module module " id="Mod92">
                             <div class="module-inner">
                                 <h3 class="module-title ">
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                     <!-- item menu 4 -->
-                    <div class=" col-lg-3 col-md-3 col-sm-3  col-xs-12">
+                    <div class=" col-lg-3 col-md-3 col-sm-6  col-xs-12">
                         <div class="t3-module module " id="Mod93">
                             <div class="module-inner">
                                 <h3 class="module-title ">

@@ -87,7 +87,7 @@
 .mod-custom-style-8 .t3-footnav .t3-module {
   background: #2a3b4d;
   color: #838b95;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 .mod-custom-style-8 .module-ct {
   background: #2A3B4D;
@@ -183,6 +183,7 @@
 }
 .mod-custom-style-8 .t3-copyright {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .mod-custom-style-8 hr {
   margin-top: 20px;
@@ -220,6 +221,9 @@
   .mod-custom-style-8 .t3-footnav > div:nth-child(2n+1) {
     clear: none;
   }
+  .mod-custom-style-8 .t3-footnav {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .mod-custom-style-8 .t3-module {
@@ -243,6 +247,7 @@
 }
 @media screen and (max-width: 768px) {
   .mod-custom-style-8 .main-container {
+    text-align: center;
     margin-left: 10px;
   }
   .mod-custom-style-8 .module {
@@ -254,7 +259,7 @@
     margin-top: 20px;
   }
   .mod-custom-style-8 .small {
-    float: left;
+    text-align: center;
   }
   .mod-custom-style-8 .module1 {
     margin-left: 80px;

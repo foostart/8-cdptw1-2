@@ -55,7 +55,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="navmenuhd">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="z-index: 100">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -119,7 +119,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         </ul>
                     </div>
                 </div>
+                
             </div>
+            
+        </div>
+        <div class="container text" style="position: absolute;left: 60px; top: 140px; z-index: -1">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi nostrum aliquam quaerat! Dolores laudantium dignissimos neque rem doloribus totam nemo molestiae explicabo? Nesciunt quisquam eaque nam? Cupiditate, illo facere? </h3>
         </div>
     </div>
 </div>      

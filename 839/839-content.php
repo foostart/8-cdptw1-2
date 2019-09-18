@@ -22,9 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="font-name">
                     <h1 class="hidden-sm-xs"><a href="#">Blog</a></h1>
                     <h2><a href="#">We are providing a great choice of different commodities</a></h2>
-                    <br>
                     <h3 class="hidden-sm-xs">We can help you solve any problem because we provide only rational solutions....</h3>
-                    <br>
                     <h4><i class="fa fa-clock-o"></i> July 11, 2016</h4>     
                 </div>
                 <h5><a class="btn btnshopnow"> <strong>Read More</strong></a></h5>
@@ -35,10 +33,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <div class="font-name">
                     <h1 class="hidden-sm-xs"><a href="#">Blog</a></h1>
-                    <h2><a href="#">We can satisfy customers with different claims</a></h2>
-                    <br>
+                    <h2><a href="#">We can satisfy customers with different claims</a></h2>            
                     <h3 class="hidden-sm-xs">So, it is natural that this sphere is one of the most popular and it is really hard to offer...</h3>
-                    <br>
                     <h4><i class="fa fa-clock-o" ></i> July 11, 2016</h4>
 
                 </div>
@@ -51,9 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="font-name">
                     <h1 class="hidden-sm-xs"><a href="#">Blog</a></h1>
                     <h2><a href="#">We can help you solve any problem because we provide only...</a></h2>
-                    <br>
                     <h3 class="hidden-sm-xs">We are living in the epoch of great technical progress....</h3>
-                    <br>
                     <h4><i class="fa fa-clock-o" ></i> July 11, 2016</h4>
 
                 </div>
