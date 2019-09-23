@@ -123,7 +123,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             
         </div>
-        <div class="container text" style="position: absolute;left: 60px; top: 140px; z-index: -1">
+        <div class="container text" style="">
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi nostrum aliquam quaerat! Dolores laudantium dignissimos neque rem doloribus totam nemo molestiae explicabo? Nesciunt quisquam eaque nam? Cupiditate, illo facere? </h3>
         </div>
     </div>

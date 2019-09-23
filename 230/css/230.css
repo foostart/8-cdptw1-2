@@ -154,11 +154,20 @@
 }
 @media (max-width: 992px) {
   .type-230 .top-info-social {
-    display: none;
+    display: inline-block;
+    right: 0px;
+    top: 20px;
   }
   .type-230 .main-menu li a {
     font-size: 10px;
     padding: 11px;
+  }
+  .type-230 .text {
+    position: absolute;
+    left: 0;
+    top: 25rem;
+    z-index: -1;
+    width: 100%;
   }
 }
 @media (max-width: 1200px) and (min-width: 992px) {
