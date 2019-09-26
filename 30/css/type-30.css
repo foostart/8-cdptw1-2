@@ -224,13 +224,9 @@
   .mod-custom-style-8 .t3-footnav {
     text-align: center;
   }
-}
-@media screen and (min-width: 768px) {
   .mod-custom-style-8 .t3-module {
     margin-bottom: 20px;
   }
-}
-@media screen and (min-width: 768px) {
   .mod-custom-style-8 .module-title {
     margin-bottom: 25px;
   }
@@ -239,13 +235,9 @@
   .mod-custom-style-8 .acymailing_module {
     margin-top: 20px;
   }
-}
-@media screen and (max-width: 768px) {
   .mod-custom-style-8 .acymailing_form {
     width: 100%;
   }
-}
-@media screen and (max-width: 768px) {
   .mod-custom-style-8 .main-container {
     text-align: center;
     margin-left: 10px;

@@ -23,6 +23,8 @@ body {
   text-align: center;
 }
 .type-12 .swiper-container .profile {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-clip: padding-box;
   background: #fff;
