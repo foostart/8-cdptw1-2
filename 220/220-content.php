@@ -16,9 +16,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-4">
                             <div class="lms_any_que_wrapper">
-                                <a>My Account</a>
-                                <a>Wish</a>
-                                <a>Checkout</a>                                    
+                                <a href="#">My Account</a>
+                                <a href="#">Wish</a>
+                                <a href="#">Checkout</a>                                    
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
@@ -57,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                         <!--MENU ITEM-->
                         <li class="dropdown dmenu">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Home</i></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Home <i class="fa fa-chevron-down"></i></a>
                             <ul class="dropdown-menu sm-menu">
                                 <li>
                                     <a href="#">Link 1</a>
@@ -71,7 +71,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </ul>
                         </li>
                         <li class="dropdown dmenu">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Product</i></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Product <i class="fa fa-chevron-down"></i></a>
                             <ul class="dropdown-menu sm-menu">
                                 <li>
                                     <a href="#">Link 1</a>
@@ -85,7 +85,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </ul>
                         </li>
                         <li class="dropdown dmenu">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Blog</i></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Blog <i class="fa fa-chevron-down"></i></a>
                             <ul class="dropdown-menu sm-menu">
                                 <li>
                                     <a href="#">Link 1</a>
@@ -99,7 +99,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </ul>
                         </li>
                         <li class="dropdown dmenu">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Page</i></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Page <i class="fa fa-chevron-down"></i></a>
                             <ul class="dropdown-menu sm-menu">
                                 <li>
                                     <a href="#">Link 1</a>

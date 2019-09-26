@@ -144,6 +144,11 @@
   border-bottom-color: #61656F;
   margin-left: 5px;
 }
+.type-230 .text {
+  text-align: justify;
+  position: relative;
+  padding: 0 15px;
+}
 .type-230 ul.main-menu li a:hover {
   color: #093eb6;
   background: none;
@@ -162,13 +167,6 @@
     font-size: 10px;
     padding: 11px;
   }
-  .type-230 .text {
-    position: absolute;
-    left: 0;
-    top: 25rem;
-    z-index: -1;
-    width: 100%;
-  }
 }
 @media (max-width: 1200px) and (min-width: 992px) {
   .type-230 .main-menu li a {
@@ -185,5 +183,12 @@
   }
   .type-230 .main-menu li a {
     font-size: 13px;
+  }
+  .type-230 #bs-example-navbar-collapse-1 {
+    position: absolute;
+    top: 255px;
+    right: 0px;
+    width: 100%;
+    z-index: 1;
   }
 }
