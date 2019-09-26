@@ -36,6 +36,8 @@
 }
 .mod-custom-style-8 .footer-info {
   padding-top: 5px;
+  margin-left: 15px;
+  margin-right: -15px;
 }
 .mod-custom-style-8 .footer-info img {
   margin-bottom: 30px;
@@ -79,11 +81,6 @@
   margin: 0px;
   padding: 0px;
 }
-@media screen and (min-width: 768px) {
-  .mod-custom-style-8 .t3-footnav {
-    padding: 10px 0;
-  }
-}
 .mod-custom-style-8 .t3-footnav .t3-module {
   background: #2a3b4d;
   color: #838b95;
@@ -106,9 +103,6 @@
   padding: 0px;
   background: #2A3B4D;
 }
-.mod-custom-style-8 .t3-logo-small.t3-logo-light {
-  background-image: url("http://joomlart.s3.amazonaws.com/images/jat3v3-documents/logo-complete/t3logo-small-light.png");
-}
 .mod-custom-style-8 .poweredby .t3-logo,
 .mod-custom-style-8 .poweredby .t3-logo-small {
   opacity: .8;
@@ -128,6 +122,7 @@
 }
 .mod-custom-style-8 .poweredby {
   float: left;
+  margin-left: 6px;
 }
 .mod-custom-style-8 .text-hide {
   font: 0/0 a;
@@ -140,8 +135,8 @@
   background: #202d3b;
   border-radius: 30px;
   padding: 10px 0;
-  margin-right: 30px;
-  margin-left: -30px;
+  margin-right: 40px;
+  margin-left: 30px;
 }
 .mod-custom-style-8 .acymailing_module_form .acymailing_form td {
   text-align: left;
@@ -190,6 +185,8 @@
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
+  margin-left: 10px;
+  margin-right: 15px;
 }
 .mod-custom-style-8 a:hover {
   text-decoration: none;
@@ -202,7 +199,7 @@
 }
 .mod-custom-style-8 #user_email_formAcymailing44681 {
   height: 40px;
-  border: 1px solid transparent;
+  border: none;
   border-radius: 4px;
   color: #adb3b9;
   font-weight: 300;
@@ -216,6 +213,11 @@
 }
 .mod-custom-style-8 .acymailing_form {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .mod-custom-style-8 .t3-footnav {
+    padding: 10px 0;
+  }
 }
 @media screen and (min-width: 768px) {
   .mod-custom-style-8 .t3-footnav > div:nth-child(2n+1) {
@@ -240,7 +242,6 @@
   }
   .mod-custom-style-8 .main-container {
     text-align: center;
-    margin-left: 10px;
   }
   .mod-custom-style-8 .module {
     text-align: center;

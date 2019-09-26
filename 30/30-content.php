@@ -154,7 +154,7 @@
                                         <tbody>
                                             <tr>
                                                 <td class="col-md-8 col-sm-8 col-xs-7">
-                                                    <input id="user_email_formAcymailing44681" value="E-mail">
+                                                    <input id="user_email_formAcymailing44681" placeholder="E-mail">
                                                 </td> 
 
                                                 <td class="col-md-4 col-sm-4 col-xs-5">
