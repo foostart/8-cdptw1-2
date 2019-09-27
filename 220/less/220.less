@@ -23,7 +23,6 @@
             right: 0;
             margin: auto;
             clear: both;
-            background: #f4f5f8;
             min-height: 94px;
             z-index: 99999;
             -webkit-transition: all 0.3s;
@@ -109,7 +108,7 @@
 
         /*Menu*/
         .nava{
-            background: #f4f5f8;
+            background: #fff;
             margin: 0 -15px;
             li{
                 a{
@@ -131,6 +130,33 @@
         .navbar-toggle .icon-bar{
             color: #fff;
             background: #fff;
+        }
+        .content {
+            text-align: justify;
+            position: relative;
+            padding: 0 15px;
+        }
+
+        @media (max-width: 922px){
+            
+        }
+        @media (max-width: 768px){
+            #bs-example-navbar-collapse-1 {
+                position: absolute;
+                top: 128px;
+                right:  0px;
+                width: 100%;
+                z-index: 1;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            #bs-example-navbar-collapse-1 {
+                position: absolute;
+                top: 155px;
+                right:  0px;
+                width: 100%;
+                z-index: 1;
+            }
         }
     }
 }
