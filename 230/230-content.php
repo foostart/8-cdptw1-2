@@ -66,10 +66,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--MAIN MENU-->
                 <div class="container">
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav nava main-menu">
+                        <ul class="nav navbar-nav main-menu">
                             <li class="active"><a href="#">Home</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret cr1"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="#">Link 1</a>
@@ -83,7 +83,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Service<b class="caret cr1"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Service<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="#">Link 1</a>
@@ -100,7 +100,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li><a href="#">New & Media</a></li>
                             <li><a href="#">Blog</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret cr1"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="#">Link 1</a>
