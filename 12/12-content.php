@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <!-- Content -->
 <div class="type-12">
-    <div class="container">
+    <div class="container start">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
