@@ -16,7 +16,10 @@ $url_path = str_replace('\\', '/', $url_path);
         <p><strong>BLOG</strong></p>
         <div class="card-columns">
             <div class="card">
-                <img class="card-img-top" src="http://<?php echo $url_path ?>/images/blog_1_1024x1024.jpg" alt="blog1-responsive">
+                <div class="thumbnail">
+                    <img class="card-img-top" src="http://<?php echo $url_path ?>/images/blog_1_1024x1024.jpg" alt="blog1-responsive">
+                </div>
+                
                 <div class="card-body">
                     <div class="header">
                         <a href="#">Blog</a>
@@ -28,7 +31,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="http://<?php echo $url_path ?>/images/blog_1_1024x1024.jpg" alt="blog1-responsive">
+            <div class="thumbnail">
+                    <img class="card-img-top" src="http://<?php echo $url_path ?>/images/blog_2_1024x1024.jpg" alt="blog2-responsive">
+                </div>
                 <div class="card-body">
                     <div class="header">
                         <a href="#">Blog</a>
@@ -40,7 +45,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="http://<?php echo $url_path ?>/images/blog_1_1024x1024.jpg" alt="blog1-responsive">
+            <div class="thumbnail">
+                    <img class="card-img-top" src="http://<?php echo $url_path ?>/images/blog_3_1024x1024.jpg" alt="blog3-responsive">
+                </div>
                 <div class="card-body">
                     <div class="header">
                         <a href="#">Blog</a>
