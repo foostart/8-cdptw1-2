@@ -4,9 +4,11 @@
   width: auto;
   clear: both;
 }
+.mod-custom-style-8 .first {
+  padding: 0;
+}
 .mod-custom-style-8 .main-container {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0;
 }
 .mod-custom-style-8 .t3-module {
   background: transparent;
