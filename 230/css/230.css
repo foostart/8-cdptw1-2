@@ -164,7 +164,6 @@
     top: 20px;
   }
   .type-230 .main-menu li a {
-    font-size: 10px;
     padding: 11px;
   }
 }
@@ -186,7 +185,7 @@
   }
   .type-230 #bs-example-navbar-collapse-1 {
     position: absolute;
-    top: 255px;
+    top: 245px;
     right: 0px;
     width: 100%;
     z-index: 1;
